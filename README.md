@@ -109,6 +109,8 @@ Pull Request 適用於：
 
 如不熟悉 GitHub，可直接於 Issue 中留言，我們亦會協助整理。
 
+# English Version
+
 # 11.26 Tai Po Wang Fuk Court Fire Documentary
 
 This repository aims to collect, organize, and preserve publicly available information related to the Wang Fuk Court fire in Tai Po on 26 November 2025. Materials include news reports, video footage, technical analyses, contractor information, volunteer and community support resources, official statements, and follow-up developments. The objective is to build a public, centralized, and verifiable archive for researchers, media, engineers, and concerned members of the public.
