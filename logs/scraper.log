@@ -166,3 +166,36 @@ Aborting
 2025-11-29 03:41:27 | INFO     | Scraper results: 32 success, 9 failed
 2025-11-29 03:41:27 | INFO     | Committing changes...
 2025-11-29 03:41:27 | INFO     | Committed: chore(scraper): auto-scrape 2025-11-29 03:41
+2025-11-29 03:41:27 | INFO     | Committed log updates
+2025-11-29 03:41:27 | INFO     | Sync cycle complete
+2025-11-29 03:41:27 | INFO     | ----------------------------------------
+2025-11-29 03:41:27 | INFO     | Starting PR cycle...
+2025-11-29 03:41:28 | ERROR    | Command failed: git push origin main
+2025-11-29 03:41:28 | ERROR    | stderr: To https://github.com/Hilo-Hilo/Hong-Kong-Fire-Documentary.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Hilo-Hilo/Hong-Kong-Fire-Documentary.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+2025-11-29 03:41:28 | INFO     | Managing PR...
+2025-11-29 03:41:29 | INFO     | Pushing to branch 'scraper-updates'...
+2025-11-29 03:41:29 | ERROR    | Command failed: git checkout scraper-updates
+2025-11-29 03:41:29 | ERROR    | stderr: error: Your local changes to the following files would be overwritten by checkout:
+	logs/scraper.log
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+2025-11-29 03:41:29 | ERROR    | Failed to push: Command '['git', 'checkout', 'scraper-updates']' returned non-zero exit status 1.
+2025-11-29 03:41:29 | ERROR    | Failed to push to PR branch
+2025-11-29 03:41:29 | INFO     | PR cycle complete
+2025-11-29 03:42:29 | INFO     | ----------------------------------------
+2025-11-29 03:42:29 | INFO     | Starting sync cycle...
+2025-11-29 03:42:29 | INFO     | Syncing with upstream...
+2025-11-29 03:42:29 | INFO     | Already up to date with upstream
+2025-11-29 03:42:29 | INFO     | Running scraper...
+2025-11-29 03:42:29 | INFO     | Found 9 new URLs to scrape
+2025-11-29 04:09:24 | INFO     | Scraper results: 5 success, 4 failed
+2025-11-29 04:09:24 | INFO     | Committing changes...
