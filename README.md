@@ -2,7 +2,20 @@
 
 # 11.26 大埔宏福苑火災紀錄庫
 
-本存庫旨在整理及保存 2025 年 11 月 26 日大埔宏福苑火災的公開資料，包括新聞報道、影片紀錄、技術分析、承辦商資料、義工及社區支援資訊、官方回應，以及事件後續的相關資料。目標為建立一個公開、集中及可查證的紀錄庫，方便研究、媒體、工程界及關注事件的市民查閱。
+本存庫旨在整理及保存 2025 年 11 月 26 日大埔宏福苑火災的公開資料，包括新聞報道、影片紀錄、技術分析、承辦商資料、義工及社區支援資訊、官方回應，以及事件後續的相關資料。目標為建立一個公開、集中及可查證的紀錄庫，方便學術界、媒體、工程界及關注事件的市民查閱。
+
+## 目錄 (Table of Contents)
+
+- [一、目的](#一目的)
+- [二、事件概述](#二事件概述)
+- [三、存庫內容架構](#三存庫內容架構)
+- [四、主要研究與技術議題](#四主要研究與技術議題)
+- [五、社區參與方式](#五社區參與方式)
+- [六、授權條款與引用 (License & Citation)](#六授權條款與引用-license--citation)
+- [七、聲明](#七聲明)
+- [八、如何提交 Issue 或 Pull Request](#八如何提交-issue-或-pull-request)
+- [九、技術資源 (Technical Resources)](#九技術資源-technical-resources)
+- [English Version](#english-version)
 
 ## 一、目的
 
@@ -19,42 +32,40 @@
 
 ## 三、存庫內容架構
 
-/timeline/ 時間線（按時序整理）
+主要內容存放於 `content/` 目錄下：
 
-/videos/ 現場片段及來源
-
-/news/ 新聞報道及官方資料
-
-/analysis/ 技術分析與相關文獻
-
-/support/ 義工及社區支援資訊
-
-/photos/ 現場圖片及相關紀錄
-
-/docs/ 政府文件、部門回覆及公開信件
-
-- 宏福苑業主立案法團管理委員會會議記錄（2021-2025，共34份）：[PDF格式](docs/meeting_minutes/pdf/README.md) | [Markdown格式](docs/meeting_minutes/markdown/README.md)
+- **`/timeline/` 時間線**：按時序整理的事件發展紀錄，包括火災發生、救援過程及事後發展。
+- **`/videos/` 現場片段**：收集自社交媒體及新聞的現場影片，附有來源連結。
+- **`/news/` 新聞報道**：各大媒體的相關報道存檔，按媒體及日期分類。
+- **`/analysis/` 技術分析**：整理有關棚架安全、物料阻燃標準及火災成因的技術文獻與分析。
+- **`/support/` 支援資訊**：義工服務、物資捐贈及社區互助的相關資訊。
+- **`/photos/` 圖片紀錄**：現場照片及相關圖片紀錄。
+- **`/residents/` 居民討論**：收集居民在各平台的討論、互助訊息及聲音。
+- **`/docs/` 官方文件**：
+  - 政府部門回覆及公開信件
+  - 宏福苑業主立案法團管理委員會會議記錄（2021-2025，共34份）：[PDF格式](content/docs/meeting_minutes/pdf/README.md) | [Markdown格式](content/docs/meeting_minutes/markdown/README.md)
 
 ## 四、主要研究與技術議題
 
 本存庫將整理及分析以下議題：
 
-- 竹棚與金屬棚架的物理特性及安全比較  
-- 香港棚網的法定阻燃要求及相關標準  
-- 承辦商於維修工程中的責任及管理制度  
-- 火勢於短時間內急速上升的可能機制  
-- 物料燃點、煙囪效應、工程流程及驗收制度  
-- 工程界、物料科學界、消防專業人士的公開意見  
+- 竹棚與金屬棚架的物理特性及安全比較
+- 香港棚網的法定阻燃要求及相關標準
+- 承辦商於維修工程中的責任及管理制度
+- 火勢於短時間內急速上升的可能機制
+- 物料燃點、煙囪效應、工程流程及驗收制度
+- 工程界、物料科學界、消防專業人士的公開意見
 
 ## 五、社區參與方式
 
 歡迎市民、研究者或專業人士：
 
-- 補充資料或來源  
-- 提交更正或更新  
-- 加入技術或政策分析  
-- 整理義工支援資訊  
-- 以 Pull Request 或 Issue 形式作出貢獻  
+- 補充資料或來源
+- 提交更正或更新
+- 加入技術或政策分析
+- 整理義工支援資訊
+- 以 Pull Request 或 Issue 形式作出貢獻
+  - 如你不熟悉 GitHub 的運作，我們建議你以 Issue 形式提議需更正的內容
 
 ### 提交文件時請提供以下資料 / Information to Include When Submitting Documents
 
@@ -104,13 +115,32 @@
   - **Collection Method**: 網上下載 (Web download)
 ```
 
-## 六、聲明
+## 六、授權條款與引用 (License & Citation)
+
+本資料庫採用雙重授權模式：
+
+1. **原創內容**（如時間線整理、分析報告、架構設計）：採用 **[CC BY-SA 4.0](LICENSE.md#a-原創內容授權)** 授權。
+2. **引用內容**（如新聞、影片、政府文件）：版權歸原作者所有，本庫僅作[合理引用及存檔](LICENSE.md#b-引用內容聲明)。
+
+### 引用建議 (Citation)
+
+如需引用本資料庫的原創整理內容，請標示：
+
+```
+來源：11.26 大埔宏福苑火災紀錄庫 (Hong Kong Fire Documentary)
+網址：https://github.com/Hong-Kong-Emergency-Coordination-Hub/Hong-Kong-Fire-Documentary
+授權：CC BY-SA 4.0
+```
+
+完整授權條款請參閱 [LICENSE.md](LICENSE.md)。
+
+## 七、聲明
 
 本存庫只收錄公開及可查證的資料，不包含未經核實的傳聞。本存庫之目的為保存資料、協助研究及提升事件透明度，不作出任何未經證實的指控。
 
 如有補充資料，歡迎提交。
 
-## 七、如何提交 Issue 或 Pull Request
+## 八、如何提交 Issue 或 Pull Request
 
 為方便公眾共同完善內容，本存庫歡迎任何形式的補充、修訂與建議。以下為簡單的操作方式。
 
@@ -118,20 +148,20 @@
 
 如欲補充資料、指出錯誤或提出改善建議，可按照以下步驟：
 
-1. 前往本存庫主頁  
-2. 點選頂部的 **Issues** 分頁  
-3. 按 **New Issue**  
-4. 在標題與內容中清晰說明：  
-   - 想補充或修正的內容  
-   - 資料來源連結（如適用）  
-   - 涉及的檔案或章節  
+1. 前往本存庫主頁
+2. 點選頂部的 **Issues** 分頁
+3. 按 **New Issue**
+4. 在標題與內容中清晰說明：
+   - 想補充或修正的內容
+   - 資料來源連結（如適用）
+   - 涉及的檔案或章節
 5. 提交後，維護者會審閱並回覆。
 
-Issue 適用於：  
+Issue 適用於：
 
-- 提供新的新聞連結、影片或文件來源  
-- 指出資料錯漏  
-- 建議改善存庫架構或內容  
+- 提供新的新聞連結、影片或文件來源
+- 指出資料錯漏
+- 建議改善存庫架構或內容
 - 提出應加入的新章節主題
 
 ---
@@ -140,32 +170,57 @@ Issue 適用於：
 
 如希望自行編輯或新增資料，可透過 Pull Request 提交具體修訂：
 
-1. 在右上角按 **Fork** 複製本存庫至自己的帳戶  
-2. 在自己的 fork 中進行修改  
-3. 修改完成後按 **Pull Request**  
-4. 在說明中列明：  
-   - 修改的檔案  
-   - 新增或更改的內容  
-   - 資料來源（如有）  
-   - 修訂原因  
+1. 在右上角按 **Fork** 複製本存庫至自己的帳戶
+2. 在自己的 fork 中進行修改
+3. 修改完成後按 **Pull Request**
+4. 在說明中列明：
+   - 修改的檔案
+   - 新增或更改的內容
+   - 資料來源（如有）
+   - 修訂原因
 5. 提交後，維護者會作出審閱及合併。
 
-Pull Request 適用於：  
+Pull Request 適用於：
 
-- 新增資料夾或檔案（如新聞、文件、技術分析）  
-- 修訂 Markdown 內容、排版或分類  
-- 補充可引用來源的資料  
+- 新增資料夾或檔案（如新聞、文件、技術分析）
+- 修訂 Markdown 內容、排版或分類
+- 補充可引用來源的資料
 - 新增 timeline 條目、文件摘要或分析
 
 ---
 
 如不熟悉 GitHub，可直接於 Issue 中留言，我們亦會協助整理。
 
+## 九、技術資源 (Technical Resources)
+
+本存庫包含自動化工具及 CI/CD 流程，供開發者參考：
+
+- **`.github/workflows/`**：GitHub Actions 自動化流程
+  - `publish.yml`：自動構建並發布網站至 GitHub Pages
+  - `lint.yml`：自動檢查 Markdown 格式及代碼風格 (Linting)
+- **`scripts/scraper/`**：新聞自動爬蟲 (News Scraper)
+  - 用於定時抓取各大媒體的最新報道
+  - 包含 `scraper.py` (主程式) 及 `scraped_urls.json` (已抓取紀錄)
+- **`mkdocs.yml`**：網站生成配置文件 (MkDocs Configuration)
+  - 定義網站結構、主題及多語言支援 (i18n) 設定
+
 # English Version
 
 # 11.26 Tai Po Wang Fuk Court Fire Documentary
 
-This repository aims to collect, organize, and preserve publicly available information related to the Wang Fuk Court fire in Tai Po on 26 November 2025. Materials include news reports, video footage, technical analyses, contractor information, volunteer and community support resources, official statements, and follow-up developments. The objective is to build a public, centralized, and verifiable archive for researchers, media, engineers, and concerned members of the public.
+This repository aims to collect, organize, and preserve publicly available information related to the Wang Fuk Court fire in Tai Po on 26 November 2025. Materials include news reports, video footage, technical analyses, contractor information, contractor information, volunteer and community support resources, official statements, and follow-up developments. The objective is to build a public, centralized, and verifiable archive for researchers, media, engineers, and concerned members of the public.
+
+## Table of Contents
+
+- [1. Purpose](#1-purpose)
+- [2. Incident Overview](#2-incident-overview)
+- [3. Repository Structure](#3-repository-structure)
+- [4. Key Technical and Research Topics](#4-key-technical-and-research-topics)
+- [5. Public Contribution](#5-public-contribution)
+- [6. License & Citation](#6-license--citation)
+- [7. Disclaimer](#7-disclaimer)
+- [8. How to Submit an Issue or Pull Request](#8-how-to-submit-an-issue-or-pull-request)
+- [9. Technical Resources](#9-technical-resources)
 
 ## 1. Purpose
 
@@ -182,42 +237,40 @@ On 26 November 2025, a major fire broke out at Wang Fuk Court in Tai Po. The fir
 
 ## 3. Repository Structure
 
-/timeline/ Chronological timeline of the incident
+All main content is located in the `content/` directory:
 
-/videos/ Footage and source links
-
-/news/ News reports and official information
-
-/analysis/ Technical analyses and related documents
-
-/support/ Volunteer and community support information
-
-/photos/ On-site photos and archival records
-
-/docs/ Government documents, departmental replies, and public letters
-
-- Wang Fuk Court Owners' Corporation Management Committee Meeting Minutes (2021-2025, 34 records): [PDF format](docs/meeting_minutes/pdf/README.md) | [Markdown format](docs/meeting_minutes/markdown/README.md)
+- **`/timeline/` Timeline**: Chronological record of the incident, including the fire outbreak, rescue operations, and aftermath.
+- **`/videos/` Videos**: Collection of on-site footage from social media and news sources, with source links.
+- **`/news/` News**: Archive of reports from major media outlets, categorized by media and date.
+- **`/analysis/` Analysis**: Technical documents and analyses regarding scaffolding safety, material flame retardancy standards, and fire causes.
+- **`/support/` Support**: Information on volunteer services, donation of supplies, and community mutual aid.
+- **`/photos/` Photos**: On-site photos and related visual records.
+- **`/residents/` Residents**: Collection of residents' discussions, mutual aid messages, and voices from various platforms.
+- **`/docs/` Documents**:
+  - Government departmental replies and public letters
+  - Wang Fuk Court Owners' Corporation Management Committee Meeting Minutes (2021-2025, 34 records): [PDF format](content/docs/meeting_minutes/pdf/README.md) | [Markdown format](content/docs/meeting_minutes/markdown/README.md)
 
 ## 4. Key Technical and Research Topics
 
 This repository will document and analyze topics including:
 
-- Physical and safety comparisons between bamboo scaffolding and metal scaffolding  
-- Legal flame-retardant requirements and standards for safety netting in Hong Kong  
-- Responsibilities and management systems for contractors during maintenance works  
-- Possible mechanisms leading to the rapid vertical fire spread  
-- Material ignition points, chimney effects, engineering workflow, and inspection procedures  
-- Public statements from engineering, material science, and firefighting experts  
+- Physical and safety comparisons between bamboo scaffolding and metal scaffolding
+- Legal flame-retardant requirements and standards for safety netting in Hong Kong
+- Responsibilities and management systems for contractors during maintenance works
+- Possible mechanisms leading to the rapid vertical fire spread
+- Material ignition points, chimney effects, engineering workflow, and inspection procedures
+- Public statements from engineering, material science, and firefighting experts
 
 ## 5. Public Contribution
 
 Contributions are welcome from residents, researchers, and professionals:
 
-- Adding new information or sources  
-- Correcting or updating existing content  
-- Providing technical or policy analysis  
-- Consolidating volunteer or community support information  
-- Submitting Pull Requests or Issues to improve the repository  
+- Adding new information or sources
+- Correcting or updating existing content
+- Providing technical or policy analysis
+- Consolidating volunteer or community support information
+- Submitting Pull Requests or Issues to improve the repository
+  - If you are unfamiliar with how GitHub works, we recommend you use Issues to suggest changes
 
 ### Information to Include When Submitting Documents
 
@@ -239,6 +292,7 @@ To ensure documents can serve as valid evidence, please include the following in
 - Helps verify file integrity for legal/archival purposes.
 - Mac/Linux command: `shasum -a 256 filename.pdf`
 - Windows command: `certutil -hashfile filename.pdf SHA256`
+- Windows PowerShell command: `Get-FileHash filename.pdf`
 
 **4. Collection Method**
 
@@ -267,59 +321,91 @@ To ensure documents can serve as valid evidence, please include the following in
   - **Collection Method**: 網上下載 (Web download)
 ```
 
-## 6. Disclaimer
+## 6. License & Citation
 
-This repository only includes publicly available and verifiable information.  
-Unverified rumors will not be included.  
-The purpose of this archive is to preserve information, support research, and improve transparency.  
+This repository operates under a dual-licensing model:
+
+1. **Original Content** (e.g., timeline curation, analysis reports, architecture): Licensed under **[CC BY-SA 4.0](LICENSE.md#a-original-content-licensing)**.
+2. **Quoted Content** (e.g., news reports, videos, government documents): Copyright belongs to the original authors. This repository serves as a [fair dealing archive](LICENSE.md#b-declaration-of-quoted-content).
+
+### Citation
+
+When using original content from this repository, please attribute as follows:
+
+```
+Source: 11.26 Tai Po Wang Fuk Court Fire Documentary (Hong Kong Fire Documentary)
+URL: https://github.com/Hong-Kong-Emergency-Coordination-Hub/Hong-Kong-Fire-Documentary
+License: CC BY-SA 4.0
+```
+
+For full license terms, please refer to [LICENSE.md](LICENSE.md).
+
+## 7. Disclaimer
+
+This repository only includes publicly available and verifiable information.
+Unverified rumors will not be included.
+The purpose of this archive is to preserve information, support research, and improve transparency.
 No unverified allegations will be made.
 
 Contributions and additional data are welcome.
 
-## 7. How to Submit an Issue or Pull Request
+## 8. How to Submit an Issue or Pull Request
 
-To facilitate community collaboration, this repository accepts Issues and Pull Requests.  
+To facilitate community collaboration, this repository accepts Issues and Pull Requests.
 Below are basic instructions.
 
 ### 1. Submitting an Issue (new information, corrections, suggestions)
 
-1. Go to the repository main page  
-2. Click **Issues**  
-3. Select **New Issue**  
-4. Provide:  
-   - Details of the information to add or correct  
-   - Source links (if applicable)  
-   - Relevant files or sections  
+1. Go to the repository main page
+2. Click **Issues**
+3. Select **New Issue**
+4. Provide:
+   - Details of the information to add or correct
+   - Source links (if applicable)
+   - Relevant files or sections
 5. Submit the issue for review
 
-Issues are suitable for:  
+Issues are suitable for:
 
-- Adding news links, videos, or document sources  
-- Reporting errors or omissions  
-- Suggesting improvements to structure and content  
+- Adding news links, videos, or document sources
+- Reporting errors or omissions
+- Suggesting improvements to structure and content
 - Proposing new topics for inclusion
 
 ---
 
 ### 2. Submitting a Pull Request (direct edits)
 
-1. Click **Fork** to create a copy of the repository  
-2. Make edits in your own branch  
-3. Click **Pull Request**  
-4. Provide a summary including:  
-   - Modified files  
-   - Description of changes  
-   - Source references (if applicable)  
-   - Reason for the revision  
+1. Click **Fork** to create a copy of the repository
+2. Make edits in your own branch
+3. Click **Pull Request**
+4. Provide a summary including:
+   - Modified files
+   - Description of changes
+   - Source references (if applicable)
+   - Reason for the revision
 5. Maintainers will review and merge if appropriate
 
-Pull Requests are suitable for:  
+Pull Requests are suitable for:
 
-- Adding folders or files (e.g., news, documents, analysis)  
-- Improving Markdown structures or formatting  
-- Adding verified data  
-- Updating timelines, summaries, and technical analysis  
+- Adding folders or files (e.g., news, documents, analysis)
+- Improving Markdown structures or formatting
+- Adding verified data
+- Updating timelines, summaries, and technical analysis
 
 ---
 
 If you are unfamiliar with GitHub, you may also leave a comment in Issues and maintainers will assist with formatting and integration.
+
+## 9. Technical Resources
+
+This repository includes automation tools and CI/CD workflows for developers:
+
+- **`.github/workflows/`**: GitHub Actions workflows
+  - `publish.yml`: Automatically builds and deploys the site to GitHub Pages
+  - `lint.yml`: Automatically checks Markdown formatting and code style (Linting)
+- **`scripts/scraper/`**: Automated News Scraper
+  - Scheduled to fetch the latest reports from major media outlets
+  - Includes `scraper.py` (main script) and `scraped_urls.json` (history record)
+- **`mkdocs.yml`**: Site Configuration
+  - Defines site structure, theme, and internationalization (i18n) settings
